@@ -123,6 +123,16 @@ table {
   border-spacing: 0;
 }
 
+@font-face {
+  font-family: "poppins";
+  src: local("poppins"), url(poppins.woff) format("woff");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: local("roboto"), url(roboto.woff) format("woff");
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
