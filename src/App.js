@@ -284,27 +284,12 @@ function App() {
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   1 {CONFIG.SYMBOL} = {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}
+                  {CONFIG.NETWORK.SYMBOL} + Gas fees
                 </s.TextTitle>
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Excluding gas fees.
-                </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
-                    <s.TextDescription
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                      }}
-                    >
-                      Connect to the {CONFIG.NETWORK.NAME} network
-                    </s.TextDescription>
-                    <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
@@ -312,7 +297,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      Connect to the {CONFIG.NETWORK.NAME} network
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
