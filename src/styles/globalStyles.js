@@ -62,8 +62,9 @@ export const TextSubTitle = styled.p`
   color: var(--primary-text);
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 23px;
-  font-weight: 900;
+  font-weight: bold;
   line-height: 1.6;
+  letter-spacing :0.5px;
 `;
 
 export const TextDescription = styled.p`
