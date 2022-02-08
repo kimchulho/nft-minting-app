@@ -382,6 +382,15 @@ function App() {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
+          <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            ⓒ {CONFIG.NFT_NAME}
+          </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
