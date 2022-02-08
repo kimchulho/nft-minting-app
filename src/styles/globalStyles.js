@@ -52,20 +52,23 @@ export const Container = styled.div`
 
 export const TextTitle = styled.p`
   color: var(--primary-text);
-  font-size: 15px;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+  font-size: 17px;
   font-weight: 500;
   line-height: 1.6;
 `;
 
 export const TextSubTitle = styled.p`
   color: var(--primary-text);
-  font-size: 15px;
+  font-family: Poppins,Arial, Helvetica, sans-serif;
+  font-size: 23px;
   line-height: 1.6;
 `;
 
 export const TextDescription = styled.p`
   color: var(--primary-text);
-  font-size: 15px;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+  font-size: 17px;
   line-height: 1.6;
 `;
 
