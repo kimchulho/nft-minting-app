@@ -122,15 +122,6 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins"), url(poppins.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(roboto.woff) format("woff");
-}
 
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
