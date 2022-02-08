@@ -84,7 +84,6 @@ video {
   border: 0;
   font-size: 17px;
   vertical-align: baseline;
-  font-family: Roboto,Arial, Helvetica, sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -124,16 +123,17 @@ table {
 }
 
 @font-face {
-  font-family: "poppins";
-  src: local("poppins"), url(poppins.woff) format("woff");
+  font-family: "Poppins";
+  src: local("Poppins"), url(poppins.woff) format("woff");
 }
 
 @font-face {
-  font-family: "roboto";
-  src: local("roboto"), url(roboto.woff) format("woff");
+  font-family: "Roboto";
+  src: local("Roboto"), url(roboto.woff) format("woff");
 }
 
 body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
