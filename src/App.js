@@ -10,7 +10,7 @@ const truncate = (input, len) =>
 
 export const StyledButton = styled.button`
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 5%;
   border: none;
   background-color: var(--secondary);
   padding: 10px;
