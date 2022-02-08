@@ -62,6 +62,7 @@ export const TextSubTitle = styled.p`
   color: var(--primary-text);
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 23px;
+  font-weight: 900;
   line-height: 1.6;
 `;
 
