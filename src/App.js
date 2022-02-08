@@ -199,6 +199,16 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+
+
+            <s.TextSubTitle
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+              }}
+            >
+              {CONFIG.NFT_NAME} MINT
+            </s.TextSubTitle>
             <s.TextTitle
               style={{
                 textAlign: "center",
