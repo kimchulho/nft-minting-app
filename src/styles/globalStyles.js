@@ -52,7 +52,7 @@ export const Container = styled.div`
 
 export const TextTitle = styled.p`
   color: var(--primary-text);
-  font-family: Roboto,Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 1.6;

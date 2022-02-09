@@ -93,6 +93,7 @@ function App() {
     },
     NFT_NAME: "",
     SYMBOL: "",
+    MAX_MINT: 5,
     MAX_SUPPLY: 1,
     WEI_COST: 0,
     DISPLAY_COST: 0,
@@ -144,8 +145,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 50) {
-      newMintAmount = 50;
+    if (newMintAmount > CONFIG.MAX_MINT) {
+      newMintAmount = CONFIG.MAX_MINT;
     }
     setMintAmount(newMintAmount);
   };
